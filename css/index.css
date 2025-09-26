@@ -129,7 +129,7 @@ main {
 .profile-card {
     background: linear-gradient(135deg, #222 60%, #fff1 100%);
     border-radius: 40px;
-    box-shadow: 0 0 80px #fff4, 0 0 0 12px #fff1;
+    box-shadow: 0 0 16px #fff;
     padding: 2.5rem 2rem 2rem 2rem;
     display: flex;
     align-items: center;
@@ -148,7 +148,7 @@ main {
 
 .profile-card:hover,
 .profile-card:focus-within {
-    box-shadow: 0 0 120px #fff8, 0 0 0 16px #fff2;
+    box-shadow: 0 0 32px #fff;
     transform: scale(1.03) rotateY(8deg);
     filter: brightness(1.12) blur(0.1px);
 }
@@ -157,17 +157,16 @@ main {
     width: 180px;
     height: 180px;
     object-fit: cover;
-    border-radius: 32px;
-    box-shadow: 0 0 64px #fff8, 0 0 0 8px #fff2;
-    filter: drop-shadow(0 0 32px #fff8) brightness(1.1);
+    border-radius: 16px;
     background: #222;
     transition: transform 0.6s cubic-bezier(.68,-0.55,.27,1.55), box-shadow 0.4s;
+    box-shadow: 0 0 16px #fff;
 }
 
 .profile-card:hover .profile-image,
 .profile-card:focus-within .profile-image {
     transform: scale(1.12) rotateY(20deg);
-    box-shadow: 0 0 128px #fff, 0 0 0 12px #fff4;
+    box-shadow: 0 0 32px #fff;
     filter: brightness(1.15) blur(0.2px);
 }
 
